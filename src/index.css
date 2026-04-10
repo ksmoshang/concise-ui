@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root { color-scheme: dark; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  /* 必须是完全透明，否则就会出现两层叠加的丑陋效果！ */
+  background-color: transparent !important; 
+  color: white;
+  overflow: hidden;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 优雅的细体滚动条 */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, 0.2); border-radius: 10px; }
