@@ -8,6 +8,7 @@
 💉 动态注入：极简/极客双模式注入自定义右键菜单项，支持所有 .exe 程序。
 # 主界面
 <img width="1144" height="723" alt="image" src="https://github.com/user-attachments/assets/1afa3dc2-ad5f-41c0-8034-7c06b95cf1e4" />
+
 # 🚀 快速开始
 1. 下载安装 (推荐)
 前往 Releases 页面下载最新的 .exe 安装程序。
