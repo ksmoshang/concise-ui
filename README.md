@@ -33,7 +33,7 @@ cd concise-ui
 pnpm install
 
 # 4. 启动开发环境 (Tauri)
-pnpm tauri dev
+pnpm tauri dev；
 
 
 # 🤝 贡献指南
