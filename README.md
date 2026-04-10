@@ -18,25 +18,23 @@
 
 前往 Releases 页面下载最新的 .exe 安装程序。
 
-3. 本地开发
+## 🛠️ 本地开发
 
-如果你想自行编译或参与贡献，请确保已安装 Rust 环境。
+如果你想自行编译或参与贡献，请确保你的电脑已配置好 [Rust](https://www.rust-lang.org/) 和 [Node.js](https://nodejs.org/) 环境。
 
-克隆仓库
+```bash
+# 1. 克隆仓库
+git clone [https://github.com/ksmoshang/concise-ui.git](https://github.com/ksmoshang/concise-ui.git)
 
-git clone https://github.com/ksmoshang/concise-ui.git
-
-进入目录
-
+# 2. 进入项目目录
 cd concise-ui
 
-安装依赖
-
+# 3. 安装前端依赖
 pnpm install
 
-启动开发环境
-
+# 4. 启动开发环境 (Tauri)
 pnpm tauri dev
+
 
 # 🤝 贡献指南
 欢迎任何形式的 Pull Request！无论是修复 Bug、增加新功能还是优化翻译，你的贡献都能让这个工具变得更好。
