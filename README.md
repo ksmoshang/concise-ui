@@ -15,12 +15,19 @@
 2. 本地开发
 如果你想自行编译或参与贡献，请确保已安装 Rust 环境。
 克隆仓库
+
 git clone https://github.com/ksmoshang/concise-ui.git
+
 进入目录
+
 cd concise-ui
+
 安装依赖
+
 pnpm install
+
 启动开发环境
+
 pnpm tauri dev
 
 # 🤝 贡献指南
